@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<stdlib.h>
 #include <string.h> 
-//BFÀ„∑®
+//BF
 /*int BF(char s[],char t[])
 {
     int i=0,j=0;
@@ -33,7 +33,7 @@ int main()
     printf("%d",x);
     return 0;
 }*/
-//KMPÀ„∑® 
+//KMP
 int next[1000001];
 void get_next(char t[])
 {
